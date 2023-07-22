@@ -41,7 +41,7 @@ PRODUCT_COPY_FILES += \
 	$(RESOURCE_PATH)/keyboard/system_usr_keylayout/mtk-kpd.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/mtk-kpd.kl
 
 #Kika-Input
-KIKA_PATH += $(RESOURCE_PATH)/prebuilt/kika-input/
+KIKA_PATH += device/privacysociety/prebuilt/kika-input/
 #lib
 PRODUCT_COPY_FILES += \
 	$(KIKA_PATH)/lib/libChangjieD1.so:$(TARGET_COPY_OUT_SYSTEM)/app/lib/libChangjieD1.so \
