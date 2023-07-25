@@ -1,3 +1,5 @@
+$(call inherit-product, device/phh/treble/lineage_arm64_bvN.mk)
+
 RESOURCE_PATH := device/privacysociety/
 
 TARGET_NO_KERNEL_OVERRIDE := true
