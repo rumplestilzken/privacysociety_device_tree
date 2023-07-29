@@ -41,8 +41,3 @@ settings put secure show_ime_with_hard_keyboard 1
 
 #Global settings reset key
 settings put global persist.privacysociety.settings true
-
-#Kika
-pm enable com.iqqijni.bbkeyboard
-ime enable com.iqqijni.bbkeyboard/.keyboard_service.view.HDKeyboardService
-ime set com.iqqijni.bbkeyboard/.keyboard_service.view.HDKeyboardService

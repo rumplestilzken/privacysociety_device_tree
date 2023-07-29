@@ -1,7 +1,7 @@
 $(call inherit-product, device/privacysociety/common.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := privacysociety_jelly2e
+PRODUCT_DEVICE := privacysociety_atoml
 PRODUCT_BRAND := Unihertz
 PRODUCT_SYSTEM_BRAND := Unihertz
 PRODUCT_MANUFACTURER := Unihertz

@@ -11,6 +11,5 @@ PRODUCT_COPY_FILES += \
 #Allow resigned images.
 PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 
-#PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-#    persist.restricted_networking_mode=0 \
-#    persist.rumplestilzken.settings=true \
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.system.ota.json_url="https://104.45.195.174/ota.json"
