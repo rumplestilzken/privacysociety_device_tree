@@ -12,4 +12,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 
 PRODUCT_SYSTEM_PROPERTIES += \
-    ro.system.ota.json_url="https://104.45.195.174/ota.json"
+    ro.system.ota.json_url="https://ota.privacysociety.org/ota.json"
+
+#PRODUCT_PACKAGES += \
+#    ps_SetupWizard
