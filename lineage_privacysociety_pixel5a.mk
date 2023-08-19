@@ -16,8 +16,3 @@ PRODUCT_COPY_FILES += \
 
 #bootanimation
 TARGET_BOOTANIMATION := $(RESOURCE_PATH)/bootanimation.zip
-
-#IMS
-PRODUCT_PACKAGES += \
-    MTK-IMS_R \
-    treble-app2 \

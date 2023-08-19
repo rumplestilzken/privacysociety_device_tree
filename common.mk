@@ -14,5 +14,5 @@ PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.system.ota.json_url="https://ota.privacysociety.org/ota.json"
 
-#PRODUCT_PACKAGES += \
-#    ps_SetupWizard
+PRODUCT_PACKAGES += \
+   privacysociety_app_store
