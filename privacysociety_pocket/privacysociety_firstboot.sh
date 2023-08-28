@@ -12,8 +12,8 @@ $(echo "writing privacysociety.settings" > /dev/kmsg)
 settings put global restricted_networking_mode 0
 
 #LTE
-settings put system persist.dbg.ims_volte_enable 1 
-settings put system persist.dbg.volte_avail_ovr 1 
+settings put system persist.dbg.ims_volte_enable 1
+settings put system persist.dbg.volte_avail_ovr 1
 settings put system persist.dbg.vt_avail_ovr 1
 settings put system persist.dbg.wfc_avail_ovr 1
 settings put system persist.radio.rat_on combine
@@ -46,3 +46,5 @@ settings put global persist.privacysociety.settings true
 pm enable com.iqqijni.bbkeyboard
 ime enable com.iqqijni.bbkeyboard/.keyboard_service.view.HDKeyboardService
 ime set com.iqqijni.bbkeyboard/.keyboard_service.view.HDKeyboardService
+
+cmd overlay enable com.android.internal.systemui.navbar.gestural
