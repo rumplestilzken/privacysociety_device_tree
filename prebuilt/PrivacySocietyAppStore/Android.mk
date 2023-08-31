@@ -6,7 +6,7 @@ LOCAL_MODULE_TAGS := optional
 
 LOCAL_MODULE := privacysociety_app_store
 
-LOCAL_CERTIFICATE := platform
+LOCAL_CERTIFICATE := PRESIGNED
 
 LOCAL_SRC_FILES := app-store-ps-rom.apk
 

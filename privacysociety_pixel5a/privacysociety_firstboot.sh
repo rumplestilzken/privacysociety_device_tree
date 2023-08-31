@@ -39,3 +39,7 @@ settings put system --lineage navigation_bar_hint 0
 
 #Global settings reset key
 settings put global persist.privacysociety.settings true
+
+# pm uninstall --user 0 com.topjohnwu.magisk
+pm uninstall --user 0 me.phh.treble.app
+pm disable-user --user 0 com.topjohnwu.magisk
