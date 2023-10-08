@@ -13,6 +13,7 @@ RESOURCE_PATH := device/privacysociety/privacysociety_pocket
 #Init Scripts
 PRODUCT_COPY_FILES += \
 	$(RESOURCE_PATH)/privacysociety_firstboot.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/privacysociety_firstboot.sh \
+	$(RESOURCE_PATH)/wallpaper.png:$(TARGET_COPY_OUT_SYSTEM)/product/media/wallpaper.png \
 
 # Stop input from touchpad
 PRODUCT_COPY_FILES += \
