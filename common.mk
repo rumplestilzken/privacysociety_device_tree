@@ -1,8 +1,4 @@
-#$(call inherit-product, device/phh/treble/lineage_arm64_bvN.mk)
-$(call inherit-product, build/make/target/product/aosp_arm64.mk)
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
--include vendor/lineage/build/core/config.mk
--include vendor/lineage/build/core/apicheck.mk
+$(call inherit-product, device/phh/treble/lineage_arm64_bvN.mk)
 
 RESOURCE_PATH := device/privacysociety/
 
